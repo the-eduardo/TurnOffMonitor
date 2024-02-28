@@ -2,6 +2,8 @@
 
 This tool is a simple application developed in Go using Fyne for User Interface, it actually put the monitor in a sleep mode. It provides a minimalistic interface it offers a solution for anyone wanting to simply turn off their monitor without using hardware buttons nor changing the computer sleep time.
 
+
+![](https://i.imgur.com/vOYbVmS.png)
 ## Features
 
 - **Turn Off Monitor**: Instantly puts your monitor into sleep mode with the click of a button.
