@@ -51,6 +51,6 @@ fyne install -icon icon.png
 Contributions are welcome! If you have a bug fix, feature request, or improvement, feel free to fork the repository and submit a pull request. <3
 
 TODO:
-~~License
-~~Startup with machine option
-~~Remember the last selected key after exiting the app
+- ~~License
+- ~~Startup with machine option
+- ~~Remember the last selected key after exiting the app
