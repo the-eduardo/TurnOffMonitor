@@ -16,7 +16,7 @@ This tool is a simple application developed in Go using Fyne for User Interface,
 To build from source, you'll need to have Go installed on your machine and also have the Fyne library installed. You can download Go from: 
 [The official website](https://go.dev/doc/install). 
 
-Once Go is set up, you can install Fyne by running the following command:
+Once Go is set up, you must install [Fyne Prerequisites](https://docs.fyne.io/started/), after that can install Fyne by running the following command:
 ```bash
 go install fyne.io/fyne/v2/cmd/fyne@latest
 ```
