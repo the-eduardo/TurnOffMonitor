@@ -24,6 +24,7 @@ jobs:
       - name: Build application
         run: |
           go mod tidy
+          go install fyne.io/fyne/v2/cmd/fyne@latest
           if [ "${{ matrix.os }}" == "windows-latest" ]; then
             fyne package -os windows -icon icon.png
           elif [ "${{ matrix.os }}" == "ubuntu-latest" ]; then
