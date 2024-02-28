@@ -2,7 +2,6 @@ package main
 
 import (
 	"errors"
-	"fmt"
 	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/app"
 	"fyne.io/fyne/v2/container"
@@ -69,7 +68,7 @@ func turnOffMonitor() error {
 		cmd := exec.Command("pmset", "displaysleepnow")
 		return cmd.Run()
 	default:
-		return errors.New(fmt.Sprintf("OS: %s is not yet supported!", runtime.GOOS))
+		return errors.New("OS:" + runtime.GOOS + " is not yet supported")
 	}
 }
 

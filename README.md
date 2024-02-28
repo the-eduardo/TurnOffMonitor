@@ -8,7 +8,7 @@ This tool is a simple application developed in Go using Fyne for User Interface,
 
 - **Turn Off Monitor**: Instantly puts your monitor into sleep mode with the click of a button.
 - **System Tray**: Minimizes to the system tray and still running in background.
-- **Cross-Platform**: Works on Windows, Linux, and macOS.
+- **Cross-Platform**: Works on Windows, Linux, and macOS*(supported, but I don't have a build for it yet).
 
 ## Installation
 ### You have two Options to use this tool:
