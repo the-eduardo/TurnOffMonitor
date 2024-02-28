@@ -1,6 +1,6 @@
 # Turn Off Monitor tool
 
-This tool is a simple application developed in Go using Fyne for User Interface, it actually put the monitor in a sleep mode. It provides a minimalistic interface it offers a solution for anyone wanting to simply turn off their monitor without using hardware buttons nor changing the computer sleep time.
+This tool is a simple application developed in Go using Fyne for User Interface, it actually put the monitor in a sleep mode. It provides a minimalistic interface offering a solution for anyone wanting to simply turn off their monitor without using hardware buttons or changing the computer sleep time.
 
 
 ![](https://i.imgur.com/vOYbVmS.png)
@@ -12,7 +12,7 @@ This tool is a simple application developed in Go using Fyne for User Interface,
 
 ## Installation
 ### You have two Options to use this tool:
-1. Download the latest release from the releases page 
+1. Download the [latest release from the releases page](https://github.com/the-eduardo/TurnOffMonitor/releases/latest) 
 2. Build the application from source:
 
 To build from source, you'll need to have Go installed on your machine and also have the Fyne library installed. You can download Go from: 
@@ -50,5 +50,7 @@ fyne install -icon icon.png
 
 Contributions are welcome! If you have a bug fix, feature request, or improvement, feel free to fork the repository and submit a pull request. <3
 
-
-~~License (TODO)~~
+TODO:
+~~License
+~~Startup with machine option
+~~Remember the last selected key after exiting the app
